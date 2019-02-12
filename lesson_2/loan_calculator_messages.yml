@@ -1,0 +1,10 @@
+
+welcome: "Welcome to the monthly mortgage payment calculator."
+name_prompt: "What is your name?"
+invalid_name: "Please enter a valid name."
+enter_loan: "Please enter the amount of your loan in U.S. dollars."
+invalid_number: "Invalid input. Please only use decimals and numbers."
+enter_apr: "Please enter the Annual Percentage Rate (APR) of your loan. For 10.3 percent APR you would enter 10.3."
+enter_loan_duration: "Please enter the loan duration in years."
+output_payment: "#{user_name}, your montly mortgage payment is $#{monthly_payment_rounded}"
+again?: "Would you like to use the calculator again? (Y/N)"
