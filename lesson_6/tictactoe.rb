@@ -11,6 +11,17 @@ def prompt(msg)
   puts "=> #{msg}"
 end
 
+def joinor(array, punct=', ', conj='or ')
+  case array.size
+  when 0 then ''
+  when 1 then array.first
+  when 2 then array.join(" #{conj} ")
+  else
+    array[-1] = "#{conj} #{array.last}"
+    array.join(punct)
+  end
+end
+
 # rubocop: disable Metrics/AbcSize
 def display_board(brd)
   system 'clear'
