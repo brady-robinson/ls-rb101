@@ -1,6 +1,6 @@
 def include?(array, item)
-  array.each do |num|
-    return true if num == item
+  array.each do |value|
+    return true if value == item
   end
   false
 end

@@ -1,17 +1,17 @@
 def reverse!(array)
   stopper = array.size / 2
-  count = 0
-  count_2 = -1
+  count_beg = 0
+  count_end = -1
 
-  loop do 
-    break if count >= stopper
-    array[count], array[count_2] = array[count_2], array[count]
-    count += 1
-    count_2 -= 1
+  until count_beg >= stopper
+    array[count_beg], array[count_end] = array[count_end], array[count_beg]
+    count_beg += 1
+    count_end -= 1
   end
 
   array
-end
+end 
+
 
 list = [1,2,3,4]
 result = reverse!(list)

@@ -1,16 +1,13 @@
-STAR = '*'
-SPACE = " "
-
-def triangle(num)
-  count = num - 1
-  count_2 = 1
-
-  num.times do
-    puts "#{SPACE * count}#{STAR * count_2}"
-    count -= 1
-    count_2 += 1
+def triangle(size)
+  spaces = size - 1
+  stars = 1
+  size.times do 
+    puts "#{" " * spaces}#{"*" * stars}"
+    spaces -= 1
+    stars += 1
   end
 end
+
 
 triangle(5)
 triangle(9)

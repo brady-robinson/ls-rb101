@@ -1,8 +1,9 @@
 def remove_vowels(array)
-  array.each do |string|
-    string.delete!('a, e, i, o, u, A, E, I, O, U')
+  array.each do |word|
+    word.delete!('aeiouAEIOU')
   end
 end
+
 
 p remove_vowels(%w(abcdefghijklmnopqrstuvwxyz)) == %w(bcdfghjklmnpqrstvwxyz)
 p remove_vowels(%w(green YELLOW black white)) == %w(grn YLLW blck wht)
