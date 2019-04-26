@@ -11,6 +11,9 @@
 # triangle(0, 3, 3) == :invalid
 # triangle(3, 1, 1) == :invalid
 
+# input: three sides of a triangle represented as integers
+# output: :equilateral, :isosceles, :scalene, :invalid
+
 # Data structure: integers
 
 # Algorithm:
