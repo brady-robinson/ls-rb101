@@ -1,4 +1,4 @@
-# Mental model:
+# Problem:
 
 # Given a string, return true of occuring parentheses match with
 # one open and one closing paren. 

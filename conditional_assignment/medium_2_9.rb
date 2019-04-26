@@ -1,4 +1,4 @@
-# Mental model:
+# Problem:
 
 # Use the bubble sort method to sort an array. The bubble sort method
 # involves seeing if the first of two adjacent elements in an array
@@ -33,8 +33,6 @@
 #     - array[count], array[count + 1] = array[count + 1], array[count]
 #   - count += 1
 # - last line should be the array
-
-require 'pry'
 
 def bubble_sort!(array)
   loop do 

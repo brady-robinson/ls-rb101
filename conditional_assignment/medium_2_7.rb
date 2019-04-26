@@ -1,4 +1,4 @@
-Mental model:
+Problem:
 
 Examples/test cases:
 

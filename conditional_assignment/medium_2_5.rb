@@ -1,4 +1,4 @@
-# Mental model:
+# Problem:
 
 # Given the lengths of three sides of a triangle, return the 
 # type of triange: equilater, scalene, isosceles, or invalid. 

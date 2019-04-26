@@ -1,4 +1,4 @@
-# Mental model:
+# Problem:
 
 # Given a string, return a hash that represents the percentage
 # of occurences of upper case letters, lowercase letters, and 

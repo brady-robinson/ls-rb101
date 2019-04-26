@@ -1,4 +1,4 @@
-# Mental model:
+# Problem:
 
 # Given the three angles of a triangle, return whether the triangle
 # is a right triangle, acute, obtuse, or invalid

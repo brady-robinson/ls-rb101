@@ -1,4 +1,4 @@
-# Mental model: 
+# Problem: 
 
 # According to a spelling restriction, create 
 # a method that returns true if a word passes the restriction. The 

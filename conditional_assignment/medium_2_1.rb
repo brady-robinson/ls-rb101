@@ -1,4 +1,4 @@
-# Mental model: 
+# Problem: 
 
 # Given a file that contains text, determine
 # which sentence in the text is the longest. Print the longest

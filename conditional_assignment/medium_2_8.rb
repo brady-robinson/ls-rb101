@@ -1,4 +1,4 @@
-# Mental model:
+# Problem:
 
 # Given an integer, the task is to find and return the next featured
 # number higher than the integer. A featured number is defined
