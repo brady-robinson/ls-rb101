@@ -1,14 +1,24 @@
-# Mental model: Given a file that contains text, determine
+# Mental model: 
+
+# Given a file that contains text, determine
 # which sentence in the text is the longest. Print the longest
 # sentence, as well as the number of words it contains. 
 
-# Examples/test cases: Implicit requirements: non-alphanumeric
+# Examples/test cases: 
+
+# Implicit requirements: non-alphanumeric
 # characters are counted as words; any sequence of characters
 # that are not spaces is considered a word. Explicit requirements:
 # A sentence is a sequence of characters that ends with a period, 
 # question mark, or exclamation point. 
 
-# Data structure: The text will be converted from a long string
+# input: text from a file
+# output: the longest sentence from the file along with its length
+# in terms of the number of words
+
+# Data structure: 
+
+# The text will be converted from a long string
 # to an array of strings that represent sentences at each index.
 
 # Algorithm:
